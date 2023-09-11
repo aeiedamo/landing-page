@@ -60,7 +60,7 @@ a {
 
 .hero-main {
     margin: 0;
-    padding: 2% 10%;
+    padding: 2% 7%;
     background-color: #1F2937;
     display: flex;
     flex-direction: row;
@@ -73,7 +73,7 @@ a {
 .hero-main .text {
     margin: 0%;
     padding: 1%;
-    width: 30%;
+    width: 35%;
     /* max-width: 40%; */
 }
 
@@ -116,7 +116,7 @@ a {
 /* random info */
 
 .random-info {
-    margin: 1% 10% 1% 10%;
+    margin: 1% 7.5% 1% 7.5%;
     padding: 0;
     display: flex;
     flex-direction: column;
@@ -136,7 +136,7 @@ a {
 }
 
 .random-info .img-contain {
-    margin: 2.5% 5% 2.5% 5%;
+    margin: 2.5% 1% 2.5% 1%;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -153,17 +153,19 @@ a {
     color: black;
     max-width: 20%;
     float: left;
-    margin: 0 2.5%;
+    margin: 0 1%;
 }
 
 .random-info .img-contain .images img {
     border: 8px solid rgba(56, 130, 246, 80%);
     border-radius: 8px;
-    width: 100%;
+    object-fit: cover;
+    width: 300px;
+    height: 200px;
 }
 
 .random-info .img-contain .images p {
-    word-break: break-all;
+    /* word-break: break-all; */
     white-space: normal;
 }
 
